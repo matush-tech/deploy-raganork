@@ -114,6 +114,12 @@
     "buildpacks": [{
       "url": "heroku-community/apt"
       },
+        "CHATBOT": {
+    "description": "AI chatbot with a flirtatious twist",
+    "required": true,
+    "value": "flirtatiousChatbotFunction"
+},
+
       {
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
       }]
